@@ -2,6 +2,11 @@ package com.haulmont.tc.Afanasevaa.practice;
 
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello, Word!");
+        for (int i = args.length - 1; i >= 0; --i) {
+
+            System.out.println(args[i]);
+
+        }
     }
 }
+

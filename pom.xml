@@ -7,6 +7,15 @@
     <groupId>com.haulmont.tc.Afanasevaa.practice</groupId>
     <artifactId>Afanasevaa-practice</artifactId>
     <version>1.0-SNAPSHOT</version>
+ <dependencies>
+     <dependency>
+         <groupId>org.testng</groupId>
+         <artifactId>testng</artifactId>
+         <version>7.5</version>
+         <scope>test</scope>
+     </dependency>
+ </dependencies>
+
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
